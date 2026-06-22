@@ -1063,6 +1063,20 @@ section[id] {
   display: none;
 }
 
+.post-empty {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: clamp(40px, 6vw, 64px) 28px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--muted);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+  text-align: center;
+}
+
 .resource-note {
   max-width: var(--max);
   margin: 32px auto 0;
@@ -1370,6 +1384,18 @@ section[id] {
   font-style: italic;
   font-size: 0.92rem;
   text-align: center;
+}
+
+/* Uncropped hero — for portrait posters / infographics shown in full */
+.article-hero.is-media-contain {
+  max-width: 680px;
+}
+
+.article-hero.is-media-contain .media-frame img {
+  aspect-ratio: auto;
+  transform: none;
+  width: 100%;
+  height: auto;
 }
 
 .article-body {
