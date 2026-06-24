@@ -7,7 +7,8 @@
     <meta name="description" content="A true story about international-student mental health in Australia: family pressure, the night I nearly gave up, and the phone call that saved my life.">
     <link rel="canonical" href="https://asanka.blog/the-phone-call-that-saved-my-life.html">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Asanka">
+    <meta name="author" content="Asanka Tharindu">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="Asanka's Personal Blog">
@@ -31,17 +32,52 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "headline": "The Phone Call That Saved My Life",
-      "description": "A true story about international-student mental health in Australia: family pressure, the night I nearly gave up, and the phone call that saved my life.",
-      "image": "https://asanka.blog/assets/mental-health-stories.jpg",
-      "datePublished": "2026-06-22",
-      "dateModified": "2026-06-22",
-      "author": { "@type": "Person", "name": "Asanka" },
-      "publisher": { "@type": "Organization", "name": "Asanka's Personal Blog" },
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://asanka.blog/the-phone-call-that-saved-my-life.html" },
-      "articleSection": "Mental Health",
-      "keywords": "international student mental health, asking for help, suicide prevention, Australia, mental health story"
+      "@graph": [
+        {
+          "@type": "BlogPosting",
+          "@id": "https://asanka.blog/the-phone-call-that-saved-my-life.html#article",
+          "headline": "The Phone Call That Saved My Life",
+          "description": "A true story about international-student mental health in Australia: family pressure, the night I nearly gave up, and the phone call that saved my life.",
+          "url": "https://asanka.blog/the-phone-call-that-saved-my-life.html",
+          "image": { "@type": "ImageObject", "url": "https://asanka.blog/assets/mental-health-stories.jpg", "width": 1054, "height": 1492 },
+          "datePublished": "2026-06-22T00:00:00+10:00",
+          "dateModified": "2026-06-22T00:00:00+10:00",
+          "author": { "@id": "https://asanka.blog/#asanka" },
+          "publisher": { "@id": "https://asanka.blog/#org" },
+          "mainEntityOfPage": { "@type": "WebPage", "@id": "https://asanka.blog/the-phone-call-that-saved-my-life.html" },
+          "articleSection": "Mental Health",
+          "inLanguage": "en-AU",
+          "keywords": "international student mental health, asking for help, suicide prevention, Australia, mental health story"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://asanka.blog/" },
+            { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://asanka.blog/blog.html" },
+            { "@type": "ListItem", "position": 3, "name": "The Phone Call That Saved My Life", "item": "https://asanka.blog/the-phone-call-that-saved-my-life.html" }
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can I call a crisis line as an international student in Australia?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Yes. Lifeline (13 11 14), Beyond Blue (1300 22 4636) and the Suicide Call Back Service (1300 659 467) are free and available to everyone in Australia, including international students. You do not need Medicare, a referral, or a good enough reason to call. If English is not your first language, call TIS National on 131 450 and ask them to connect you to any of these services in your language." }
+            },
+            {
+              "@type": "Question",
+              "name": "What do I say when I call a mental health crisis line?",
+              "acceptedAnswer": { "@type": "Answer", "text": "You do not need a script — the counsellor will guide you. You can simply say: I'm having a hard time and I need to talk to someone. You do not have to be in immediate danger to call. Feeling overwhelmed, isolated, or unable to cope is reason enough. Calls are confidential and free." }
+            },
+            {
+              "@type": "Question",
+              "name": "Does my university in Australia offer free counselling for international students?",
+              "acceptedAnswer": { "@type": "Answer", "text": "Most Australian universities offer free, confidential counselling to enrolled students, including international students. Search your university website for student counselling or student wellbeing, and book through the student services portal. Sessions are usually available within a few days." }
+            }
+          ]
+        }
+      ]
     }
     </script>
   </head>
@@ -194,8 +230,9 @@
 
           <p class="story-closing reveal">So pick up the phone. Reach out. We are here. <span class="accent">You are not alone in this.</span></p>
 
-          <aside class="reveal" style="max-width:760px;margin:24px auto 0;padding:22px 26px;border:1px solid var(--gold);border-radius:var(--radius);background:var(--paper-2);color:var(--soft);">
-            <p style="margin:0 0 4px;color:var(--gold-ink);font-size:0.74rem;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;">Reach out</p>
+          <h2 id="crisis-resources">Free mental health crisis lines in Australia — available to international students</h2>
+
+          <aside id="crisis-resources-list" class="reveal" style="max-width:760px;margin:8px auto 0;padding:22px 26px;border:1px solid var(--gold);border-radius:var(--radius);background:var(--paper-2);color:var(--soft);">
             <strong style="color:var(--ink);">Help is free, confidential, and available right now (Australia).</strong>
             <p style="margin:12px 0 0;"><strong style="color:var(--ink);">If you or someone near you is in immediate danger, call 000.</strong></p>
             <ul style="margin:12px 0 0;padding-left:1.1rem;line-height:1.8;">
@@ -211,6 +248,16 @@
           <aside class="resource-note reveal">
             This is my lived experience, shared in the hope it reaches someone who needs it. It isn't clinical or medical advice. If you're struggling, please reach out to one of the services above or speak with your university's counselling team — most campuses offer free, confidential sessions to international students.
           </aside>
+
+          <section class="faq-block reveal" aria-labelledby="faq-heading">
+            <h2 id="faq-heading">Common questions</h2>
+            <h3>Can I call a crisis line as an international student in Australia?</h3>
+            <p>Yes. Lifeline (13 11 14), Beyond Blue (1300 22 4636) and the Suicide Call Back Service (1300 659 467) are free and available to everyone in Australia, including international students. You don't need Medicare, a referral, or a "good enough" reason to call. If English isn't your first language, call TIS National on 131 450 and ask them to connect you to any of these services in your language.</p>
+            <h3>What do I say when I call a mental health crisis line?</h3>
+            <p>You don't need a script — the counsellor will guide you. You can simply say: "I'm having a hard time and I need to talk to someone." You don't have to be in immediate danger to call. Feeling overwhelmed, isolated, or unable to cope is reason enough. Calls are confidential and free.</p>
+            <h3>Does my university in Australia offer free counselling for international students?</h3>
+            <p>Most Australian universities offer free, confidential counselling to enrolled students, including international students. Search your university's website for "student counselling" or "student wellbeing," and book through the student services portal. Sessions are usually available within a few days.</p>
+          </section>
         </div>
 
         <footer class="article-cta reveal">
