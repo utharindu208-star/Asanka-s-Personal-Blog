@@ -1427,6 +1427,23 @@ section[id] {
   color: var(--forest-deep);
 }
 
+.article-body ul {
+  max-width: 700px;
+  margin: 0 auto 1.5em;
+  padding-left: 1.3em;
+}
+
+.article-body li {
+  margin: 0 0 0.7em;
+  color: var(--soft);
+  font-size: clamp(1.12rem, 1.4vw, 1.24rem);
+  line-height: 1.7;
+}
+
+.article-body li::marker {
+  color: var(--gold);
+}
+
 .article-body p.has-dropcap::first-letter {
   float: left;
   margin: 0.04em 0.12em 0 0;
