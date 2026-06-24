@@ -1410,6 +1410,23 @@ section[id] {
   line-height: 1.85;
 }
 
+.article-body p a,
+.article-body li a,
+.faq-block p a {
+  color: var(--forest);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 160ms ease;
+}
+
+.article-body p a:hover,
+.article-body li a:hover,
+.faq-block p a:hover {
+  color: var(--forest-deep);
+}
+
 .article-body p.has-dropcap::first-letter {
   float: left;
   margin: 0.04em 0.12em 0 0;
