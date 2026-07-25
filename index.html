@@ -3,28 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Asanka's Personal Blog</title>
+    <title>Mental Health & International Student Life | Asanka</title>
     <meta name="description" content="A calm personal blog about mental health, international student life in Australia, and upcoming community projects.">
     <link rel="canonical" href="https://asanka.blog/">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Asanka Tharindu">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="Asanka's Personal Blog" href="/feed.xml">
 
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Asanka's Personal Blog">
-    <meta property="og:title" content="Asanka's Personal Blog">
+    <meta property="og:title" content="Mental Health & International Student Life in Australia">
     <meta property="og:description" content="A calm personal blog about mental health, international student life in Australia, and upcoming community projects.">
     <meta property="og:url" content="https://asanka.blog/">
     <meta property="og:image" content="https://asanka.blog/assets/asanka-hero.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Asanka's Personal Blog">
+    <meta name="twitter:title" content="Mental Health & International Student Life in Australia">
     <meta name="twitter:description" content="A calm personal blog about mental health, international student life in Australia, and upcoming community projects.">
     <meta name="twitter:image" content="https://asanka.blog/assets/asanka-hero.jpg">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&display=swap">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.min.css">
 
     <script type="application/ld+json">
     {
@@ -108,7 +106,7 @@
       <section class="hero section-pad">
         <div class="hero-copy reveal">
           <p class="eyebrow">Mental health, migration, study, work</p>
-          <h1><span>Asanka's</span><span>Personal</span><span>Blog</span></h1>
+          <h1><span>Asanka's</span> <span>Personal</span> <span>Blog</span></h1>
           <p class="lead">Nobody warns you that the hardest part of studying abroad happens in your head. This is a space for international students to talk about mental health — no filter, no judgment, no pretending it is easy or all okay.</p>
           <div class="hero-actions">
             <a class="button primary" href="story.html">Read my story</a>
@@ -117,7 +115,10 @@
         </div>
         <div class="hero-media reveal" style="--delay: 120ms">
           <div class="media-frame">
-            <img src="assets/asanka-hero.jpg" alt="Asanka smiling in a garden cafe setting" fetchpriority="high">
+            <picture>
+              <source type="image/webp" srcset="assets/asanka-hero.webp">
+              <img src="assets/asanka-hero.jpg" width="1200" height="750" alt="Asanka smiling in a garden cafe setting" loading="eager" fetchpriority="high">
+            </picture>
           </div>
           <div class="hero-note" aria-label="Website focus">
             <span>Writing with honesty.</span>
@@ -161,7 +162,10 @@
             <a class="text-link" href="story.html">Read the full story</a>
           </div>
           <div class="story-photo reveal" style="--delay: 120ms">
-            <img src="assets/asanka-painting.jpg" alt="Asanka painting in a creative studio" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/asanka-painting.webp">
+              <img src="assets/asanka-painting.jpg" width="1200" height="900" alt="Asanka painting in a creative studio" loading="lazy">
+            </picture>
           </div>
         </div>
 
@@ -204,17 +208,26 @@
         </div>
         <div class="topic-grid">
           <a class="topic-card reveal" href="blog.html#mental-health">
-            <img src="assets/topic-mental-health.jpg" alt="Calm journal and tea on a desk" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/topic-mental-health.webp">
+              <img src="assets/topic-mental-health.jpg" width="1200" height="900" alt="Calm journal and tea on a desk" loading="lazy">
+            </picture>
             <span>Mental Health Blogs</span>
             <p>Honest reflections on anxiety, burnout, healing, therapy, stigma, and everyday wellbeing.</p>
           </a>
           <a class="topic-card reveal" href="blog.html#student-life">
-            <img src="assets/topic-student-life.jpg" alt="Student desk with backpack, notebook, and city view" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/topic-student-life.webp">
+              <img src="assets/topic-student-life.jpg" width="1200" height="900" alt="Student desk with backpack, notebook, and city view" loading="lazy">
+            </picture>
             <span>International Student Life</span>
             <p>Study, visas, homesickness, work, culture, money, friendships, and settling in Australia.</p>
           </a>
           <a class="topic-card reveal" href="blog.html#resources">
-            <img src="assets/topic-resources.jpg" alt="Organised resources, laptop, notebook, and plants" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/topic-resources.webp">
+              <img src="assets/topic-resources.jpg" width="1200" height="900" alt="Organised resources, laptop, notebook, and plants" loading="lazy">
+            </picture>
             <span>Resources</span>
             <p>Curated services, links, worksheets, books, podcasts, and practical tools.</p>
           </a>
@@ -231,17 +244,26 @@
         </div>
         <div class="topic-grid">
           <a class="topic-card reveal" href="ai-became-the-first-person-people-tell.html">
-            <img src="assets/ai-became-the-first-person-people-tell.jpg" alt="International student on a late-night AI chat while a call from home goes unanswered" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/ai-became-the-first-person-people-tell.webp">
+              <img src="assets/ai-became-the-first-person-people-tell.jpg" width="1672" height="941" alt="International student on a late-night AI chat while a call from home goes unanswered" loading="lazy">
+            </picture>
             <span>AI Became the First Person We Tell — Not the Last Resort</span>
             <p>29% of young people in NSW now use AI for mental health support. Why international students reach for a chatbot before a person — and where that breaks down.</p>
           </a>
           <a class="topic-card reveal" href="5-things-international-students-must-do-in-australia.html">
-            <img src="assets/international-students-arrive-australia.jpg" alt="International students arriving in Australia" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/international-students-arrive-australia.webp">
+              <img src="assets/international-students-arrive-australia.jpg" width="1600" height="900" alt="International students arriving in Australia" loading="lazy">
+            </picture>
             <span>5 Things International Students Must Do in Australia</span>
             <p>SIM cards, safety, the 48-hour work rule and tax, OSHC, and your wellbeing — the practical first-days guide I wish I'd had.</p>
           </a>
           <a class="topic-card reveal" href="international-student-support-services-australia.html">
-            <img src="assets/international-student-support-services-australia.jpg" alt="Organised list of student support services" loading="lazy">
+            <picture>
+              <source type="image/webp" srcset="assets/international-student-support-services-australia.webp">
+              <img src="assets/international-student-support-services-australia.jpg" width="1600" height="900" alt="Organised list of student support services" loading="lazy">
+            </picture>
             <span>The Support List Every Student Should Save</span>
             <p>A curated directory of free, confidential help — crisis lines, mental health, money, legal advice, and OSHC, all in one place.</p>
           </a>

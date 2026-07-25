@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asanka&#39;s Personal Blog</title>
+    <link>https://asanka.blog/</link>
+    <description>Mental health writing, international student life in Australia, and practical resources.</description>
+    <language>en-AU</language>
+    <atom:link href="https://asanka.blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Sat, 18 Jul 2026 00:00:00 +1000</lastBuildDate>
+    <item>
+      <title>AI Became the First Person We Tell — Not the Last Resort</title>
+      <link>https://asanka.blog/ai-became-the-first-person-people-tell.html</link>
+      <guid isPermaLink="true">https://asanka.blog/ai-became-the-first-person-people-tell.html</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +1000</pubDate>
+      <description>29% of young people in NSW now use AI for mental health support. Why international students reach for a chatbot before a person — and where it breaks down.</description>
+    </item>
+    <item>
+      <title>5 Things International Students Must Do When They First Arrive in Australia</title>
+      <link>https://asanka.blog/5-things-international-students-must-do-in-australia.html</link>
+      <guid isPermaLink="true">https://asanka.blog/5-things-international-students-must-do-in-australia.html</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +1000</pubDate>
+      <description>An international student's honest guide to your first days in Australia: SIM cards, safety, the 48-hour work rule, tax, OSHC, and your wellbeing.</description>
+    </item>
+    <item>
+      <title>The Support List Every International Student in Australia Should Save</title>
+      <link>https://asanka.blog/international-student-support-services-australia.html</link>
+      <guid isPermaLink="true">https://asanka.blog/international-student-support-services-australia.html</guid>
+      <pubDate>Wed, 24 Jun 2026 00:00:00 +1000</pubDate>
+      <description>Free, confidential support services every international student in Australia should save: crisis lines, mental health, money, legal, and OSHC help.</description>
+    </item>
+    <item>
+      <title>The Phone Call That Saved My Life</title>
+      <link>https://asanka.blog/the-phone-call-that-saved-my-life.html</link>
+      <guid isPermaLink="true">https://asanka.blog/the-phone-call-that-saved-my-life.html</guid>
+      <pubDate>Mon, 22 Jun 2026 00:00:00 +1000</pubDate>
+      <description>A true story about international-student mental health in Australia: family pressure, the night I nearly gave up, and the phone call that saved my life.</description>
+    </item>
+  </channel>
+</rss>

@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Story | Asanka's Personal Blog</title>
+    <title>My Story | Asanka</title>
     <meta name="description" content="From Sri Lanka to Melbourne — the 2004 tsunami, a war that was never ours, and the quiet arithmetic of studying abroad. Asanka's story, in full.">
     <link rel="canonical" href="https://asanka.blog/story.html">
     <meta name="robots" content="index, follow">
     <meta name="author" content="Asanka Tharindu">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="Asanka's Personal Blog" href="/feed.xml">
 
     <meta property="og:type" content="profile">
     <meta property="og:site_name" content="Asanka's Personal Blog">
@@ -21,10 +22,7 @@
     <meta name="twitter:description" content="From Sri Lanka to Melbourne — water, war, distance, and a stubborn belief in people. Asanka's story, in full.">
     <meta name="twitter:image" content="https://asanka.blog/assets/asanka-painting.jpg">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600;700&display=swap">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.min.css">
 
     <script type="application/ld+json">
     {
@@ -97,7 +95,8 @@
       <article class="story-article">
         <header class="article-head section-pad">
           <p class="eyebrow">My story</p>
-          <h1>Hold my hand</h1>
+          <h1>An International Student's Story, from Sri Lanka to Melbourne</h1>
+          <p class="story-hook">Hold my hand</p>
           <p class="lead article-standfirst">Sri Lanka to Melbourne — water, war, distance, and a stubborn belief in people. This is the long version of how I got here, and why I won't pretend it was easy.</p>
           <p class="article-meta">
             <span>By Asanka</span>
@@ -108,7 +107,10 @@
 
         <figure class="article-hero reveal">
           <div class="media-frame">
-            <img src="assets/asanka-painting.jpg" alt="Asanka painting in a creative studio" fetchpriority="high">
+            <picture>
+              <source type="image/webp" srcset="assets/asanka-painting.webp">
+              <img src="assets/asanka-painting.jpg" width="1200" height="900" alt="Asanka painting in a creative studio" loading="eager" fetchpriority="high">
+            </picture>
           </div>
           <figcaption>Finding ground, one brushstroke at a time.</figcaption>
         </figure>
