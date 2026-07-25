@@ -389,6 +389,20 @@ h3 {
   margin-top: 36px;
 }
 
+.cta-email {
+  flex-basis: 100%;
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.95rem;
+}
+
+.cta-email a {
+  color: var(--white);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
